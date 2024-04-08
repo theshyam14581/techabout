@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url(hacker.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow-wrap: break-word;
+        }
+
+        .container {
+            padding-left: 20px;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: #07081e;
+            position: sticky;
+        }
+
+        .navbar {
+            position: relative;
+           
+        }
+
+        .text-element:hover~#navbar {
+            position: sticky;
+            top: 0;
+        }
+
+        .navbar a {
+            float: right;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            text-decoration: none;
+        }
+
+        .navbar a.logo {
+            float: left;
+        }
+
+        .navbar a:hover {
+            background-color: #000000;
+            color: rgb(247, 245, 245);
+        }
+
+        @media screen and (max-width: 600px) {
+            .navbar a {
+                float: right;
+                display: flex;
+            }
+        }
+
+        .p1 {
+            background: linear-gradient(to bottom, rgba(93, 168, 93, 0.562), rgba(255, 255, 255, 0.595));
+            padding: 70px;
+            height: 150;
+            border-radius: 50px;
+            margin-left: 80px;
+            margin-right: 80px;
+            transition: all 0.3s ease-in-out;
+            font-family: "Lilita One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            /* box-shadow: 0px 6px 40px rgb(0, 20, 58), 10px 10px 20px rgb(4, 3, 41), 10px 20px 30px whitesmoke; */
+        }
+
+        fieldset:hover {
+            box-shadow: 0px 6px 40px rgb(95, 103, 118), 10px 10px 20px rgba(26, 138, 132, 0.797), 10px 20px 30px rgb(149, 63, 157);
+            transform: scale(1.1);
+
+        }
+
+        #insta {
+            height: 40px;
+            width: 40px;
+        }
+
+        #heading2 {
+            color: darkgreen;
+        }
+
+        #p2 {
+            background: linear-gradient(to bottom, rgba(93, 168, 93, 0.562), rgba(255, 255, 255, 0.595));
+            padding: 70px;
+            height: 150;
+            border-radius: 50px;
+            margin-left: 80px;
+            margin-right: 80px;
+            transition: all 0.3s ease-in-out;
+            font-family: "Lilita One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        #p2:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 6px 40px rgb(95, 103, 118), 10px 10px 20px rgba(26, 138, 132, 0.797), 10px 20px 30px rgb(149, 63, 157);
+        }
+
+        @media screen and (max-width: 600px) {
+            #p2 {
+                float: right;
+                display: flex;
+                overflow:hidden;
+
+            }
+        }
+
+        #heading3 {
+            font-family: "Lilita One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: blueviolet;
+            padding: 50px;
+
+        }
+
+        #heading3:hover {
+            color: darkred;
+            text-shadow: 2px 3px 4px whitesmoke;
+            position: static;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+
+        <a href="#home" class="logo"><img src="techlogo.jpg" alt="Company Logo" style="height:70px; width:90px;"></a>
+        <a href="#home" class="logo">
+            <h2 id="heading2">Tech@Friends</h2>
+        </a>
+        <a href="#home">Home</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div class="container1">
+        <p>Tech@Friends Pvt.Ltd company. founder of this company <b>Mr.shivram Sharma</b></p>
+        <h2 id="heading3">About</h2>
+
+        <fieldset class="p1">We are a passionate team of game developers dedicated to crafting immersive gaming
+            experiences. Our
+            journey
+            began with a shared dream: to create worlds that captivate and stories that inspire. With each line of code
+            and every artistic stroke, we strive to bring you games that are not just fun to play but also push the
+            boundaries of creativity. Our commitment to innovation and quality has led us to develop games that have
+            been embraced by a community of gamers worldwide. Join us on this adventure, and let’s make gaming history
+            together
+        </fieldset>
+
+        <h2 id="heading3">Founder:</h2>
+
+        <fieldset id="p2">
+            <h3>Shiv Ram Sharma</h3>
+            <b>Shiv Ram Sharma </b>//is the founder and ceo of this tech friends company
+            <br>
+            Email:sharmashivram16@gmail.com
+            <br>
+            contect:11400-5820-36
+            <a href="https://www.instagram.com/sharmashivram2006?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                target="_blank"></a>
+        </fieldset>
+
+    </div>
+    <hr>
+    <div>
+        <fieldset class="fieldset3">
+            <ul>
+                <a href="" id="foot">Contect</a><a href="" id="foot">Privacy</a><a href="" id="foot">Policy</a><a href="" id="foot">Email</a>
+            </ul>
+
+        </fieldset>
+    </div>
+
+</body>
+
+</html>
